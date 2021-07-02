@@ -88,7 +88,7 @@
 .grey-text{
   color:rgb(222, 222, 222);
 }
-#flex-item3 {
+.flex-item3 {
   order:10;
   flex-grow: 0;
   padding-top:30px;
@@ -97,7 +97,7 @@
   color: white;
   font-family: "Work Sans","Roboto","Helvetica","Arial",sans-serif;
 }
-#flex-item3 a{
+.flex-item3 a{
   padding:8px 24px;
   margin:10px;
 }
