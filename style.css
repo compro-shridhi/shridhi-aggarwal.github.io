@@ -88,7 +88,7 @@
 .grey-text{
   color:rgb(222, 222, 222);
 }
-.flex-item3 {
+#flex-item3 {
   order:10;
   flex-grow: 0;
   padding-top:30px;
@@ -97,7 +97,7 @@
   color: white;
   font-family: "Work Sans","Roboto","Helvetica","Arial",sans-serif;
 }
-.flex-item3 a{
+#flex-item3 a{
   padding:8px 24px;
   margin:10px;
 }
@@ -107,6 +107,10 @@
 }
 #openbtn{
   display:inline-flex;
+}
+/*======================extra div css===========================*/
+#extradiv{
+  height:250px;
 }
 /*======================class content css===========================*/
 .content{
@@ -129,13 +133,16 @@
   padding-left:10px;
   padding-right:20px;
 }
-.flex-item4{
+/* .flex-item4{
 
 }
 .flex-item5{
   
-}
+} */
 /*======================shrink content css===========================*/
 /*.dateshrink{
   display:none;
 }*/
+.flex-item3-shrink{
+  padding:0px;
+}
