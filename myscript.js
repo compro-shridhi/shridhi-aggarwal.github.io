@@ -5,6 +5,7 @@ function scrollFunction() {
     document.getElementById("bookcover").style.display = "none";
     document.getElementById("bookcover").style.opacity = "0";
     document.getElementById("bookname").style.fontsize = "3rem";
+    document.getElementById("bookname").style.marginTop = "7px";
     document.getElementById("booktype").style.display = "none";
     document.getElementById("date").style.display = "none";
     // document.getElementById("openbtn").style.display = "none";
@@ -14,6 +15,7 @@ function scrollFunction() {
     document.getElementById("bookcover").style.display = "block";
     document.getElementById("bookcover").style.opacity = "1";
     document.getElementById("bookname").style.fontsize = "2rem";
+    document.getElementById("bookname").style.marginTop = "0px";
     document.getElementById("booktype").style.display = "block";
     document.getElementById("date").style.display = "inline-flex";
     // document.getElementById("openbtn").style.display = "inline-flex";
