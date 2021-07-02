@@ -4,25 +4,26 @@
 }
 /*======================banner css===========================*/
 #banner {
-  padding: 20px;
-  /* position: -webkit-sticky; */
-  position: fixed;
-  top: 0;
   align-self: flex-start;
-  background-image: url(./bannerbg.PNG);
-  width:96%;
   border-radius:20px;
   margin-bottom: 30px;
-   /* animation magic */
-  transition: all 2s ease-in-out;
-  -webkit-transition: all 2s ease-in-out;
-  -moz-transition: all 2s ease-in-out;
+  width:96%;
+  padding: 20px;
+  background-image: url(bannerbg.png);
+  color: #000;
+  position:fixed;
+  top:0;
+  /* animation magic */
+  transition: height 500ms, background-image 500ms;
 }
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
   overflow:auto;
+}
+#banner.tiny{
+  height:80px;
 }
 /*======================banner cover css===========================*/
 .flex-item1 {
@@ -35,8 +36,20 @@
 }
 #bookcover{
   border-radius: 10px;
-  display:block;
+  /*display:block;
   opacity: 1;
+*/  width: 150px;
+  height: 220px;
+  /* animation magic */
+  transition: all 0.5s linear 0s;
+  -webkit-transition: all 0.5s linear 0s;
+  -moz-transition: all 0.5s linear 0s;
+  /*transition: all 0.4s ease-in-out 0s;*/
+}
+#bookcover.tiny{
+  width: 80px !important;
+  height: 80px !important;
+  transition: all 0.4s linear 0s;
 }
 /*======================banner content css===========================*/
 #flex-item2 {
@@ -49,6 +62,9 @@
   color: white;
   font-family: "Work Sans","Roboto","Helvetica","Arial",sans-serif;
 }
+#flex-item2.tiny{
+  padding-top:0px;
+}
 #bookname{
   font-size: 2rem;
   font-weight: 900;
@@ -56,6 +72,10 @@
   letter-spacing: 0em;
   margin: 0px 0px 8px;
   display:block;
+}
+#bookname.tiny{
+  font-size: 2.5rem;
+  margin-top:7px;
 }
 #booktype{
   margin: 0px 0px 24px;
@@ -68,15 +88,8 @@
 #date{
   display:inline-flex;
 }
-.icon{
-  float:left;
-  margin-right:10px;
-}
-.fa-calendar-plus-o:before {
-    font-size:25px;
-}
-.fa-user-circle-o:before{
-  font-size:25px;
+#date.tiny{
+  display:none;
 }
 .flex-column{
   flex-direction:column;
@@ -88,7 +101,7 @@
 .grey-text{
   color:rgb(222, 222, 222);
 }
-.flex-item3 {
+#flex-item3 {
   order:10;
   flex-grow: 0;
   padding-top:30px;
@@ -97,7 +110,10 @@
   color: white;
   font-family: "Work Sans","Roboto","Helvetica","Arial",sans-serif;
 }
-.flex-item3 a{
+#flex-item3.tiny{
+  padding:8px;
+}
+#flex-item3 a{
   padding:8px 24px;
   margin:10px;
 }
@@ -108,8 +124,19 @@
 #openbtn{
   display:inline-flex;
 }
+/*======================icon css===========================*/
+.icon{
+  float:left;
+  margin-right:10px;
+}
+.fa-calendar-plus-o:before {
+    font-size:25px;
+}
+.fa-user-circle-o:before{
+  font-size:25px;
+}
 /*======================extra div css===========================*/
-#extradiv{
+.extradiv{
   height:250px;
 }
 /*======================class content css===========================*/
@@ -132,17 +159,4 @@
   border-left:5px solid green;
   padding-left:10px;
   padding-right:20px;
-}
-/* .flex-item4{
-
-}
-.flex-item5{
-  
-} */
-/*======================shrink content css===========================*/
-/*.dateshrink{
-  display:none;
-}*/
-.flex-item3-shrink{
-  padding:0px;
 }
