@@ -5,19 +5,18 @@
 /*======================banner css===========================*/
 #banner {
   padding: 20px;
-  position: -webkit-sticky;
-  position: sticky;
+  /* position: -webkit-sticky; */
+  position: fixed;
   top: 0;
   align-self: flex-start;
-  transition: 0.2s;
   background-image: url(./bannerbg.PNG);
   width:96%;
   border-radius:20px;
   margin-bottom: 30px;
    /* animation magic */
-  transition: all 0.4s ease-in-out
-  -webkit-transition: all 0.4s ease-in-out
-  -moz-transition: all 0.4s ease-in-out
+  transition: all 2s ease-in-out;
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
 }
 .flex-container {
   display: flex;

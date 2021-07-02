@@ -19,13 +19,3 @@ function scrollFunction() {
     document.getElementById("flex-item2").style.paddingTop = "80px";
   }
 }
-// $(document).on("scroll", function(){
-// 	if
-//   ($(document).scrollTop() > 100){
-// 	  $("#banner").style.display = "none";
-// 	}
-// 	else
-// 	{
-// 		$("#banner").style.display = "block";
-// 	}
-// });
