@@ -12,6 +12,7 @@ function scrollFunction() {
     document.getElementById("booktype").style.display = "none";
     document.getElementById("date").classList.add("tiny");
     document.getElementById("flex-item3").classList.add("tiny");
+    document.getElementById("extradiv").classList.add("tiny");
   } else {
     // document.getElementById("bookcover").style.display = "block";
     // document.getElementById("bookcover").style.opacity = "1";
@@ -23,5 +24,6 @@ function scrollFunction() {
     document.getElementById("booktype").style.display = "block";
     document.getElementById("date").classList.remove("tiny");
     document.getElementById("flex-item3").classList.remove("tiny");
+    document.getElementById("extradiv").classList.remove("tiny");
   }
 }
