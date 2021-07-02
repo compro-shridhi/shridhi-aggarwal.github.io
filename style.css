@@ -10,7 +10,7 @@
   top: 0;
   align-self: flex-start;
   transition: 0.2s;
-  background-image: url(bannerbg.png);
+  background-image: url(bannerbg.PNG);
   width:96%;
   border-radius:20px;
   margin-bottom: 30px;
