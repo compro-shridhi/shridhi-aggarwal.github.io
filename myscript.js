@@ -6,6 +6,7 @@ function scrollFunction() {
     // document.getElementById("bookcover").style.opacity = "0";
     // document.getElementById("openbtn").style.display = "none";
     document.getElementById("banner").classList.add("tiny");
+    document.getElementById("flex-item1").classList.add("tiny");
     document.getElementById("bookcover").classList.add("tiny");
     document.getElementById("flex-item2").classList.add("tiny");
     document.getElementById("bookname").classList.add("tiny");
@@ -18,6 +19,7 @@ function scrollFunction() {
     // document.getElementById("bookcover").style.opacity = "1";
     // document.getElementById("openbtn").style.display = "inline-flex";
     document.getElementById("banner").classList.remove("tiny");
+    document.getElementById("flex-item1").classList.remove("tiny");
     document.getElementById("bookcover").classList.remove("tiny");
     document.getElementById("flex-item2").classList.remove("tiny");
     document.getElementById("bookname").classList.remove("tiny");
