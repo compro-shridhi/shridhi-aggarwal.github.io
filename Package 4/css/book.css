@@ -5,18 +5,10 @@
 
   --box-shadow: rgba(207, 207, 207, 0.75);
   /* colors */
-  --dark-grey: #344e56;
-  --beige-bg: #edf4d5;
-  --green: #b2d234;
   --black: #231f20;
   --white: #fff;
   --font-color: #231f20;
-  --orange: #f89e49;
-  --light-orange: #fee9d3;
-  --purple: #5c2e91;
-  --pink: #ec008c;
-  --light-pink: #fbdfeb;
-  --red: #d11f27;
+  --red: #d1232a;
   /* font sizes */
   --font-42pt: 4.75rem;
   --font-16pt: 1.7rem;
@@ -29,25 +21,7 @@
   --font-7pt: 0.7rem;
 }
 
-@font-face {
-  font-family: "Font-Awesome-5-Free-Solid-900";
-  src: url("../fonts/Font-Awesome-5-Free-Solid-900.otf") format("opentype");
-}
-
-@font-face {
-  font-family: "FontAwesome";
-  src: url("../fonts/FontAwesome.otf") format("opentype");
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/Roboto-Regular.ttf");
-}
-
-@font-face {
-  font-family: "Roboto-Bold";
-  src: url("../fonts/Roboto-Bold.ttf");
-}
+/* font family css */
 
 @font-face {
   font-family: "Times";
@@ -74,17 +48,7 @@
   src: url("../fonts/AvenirLTStd-Roman.otf");
 }
 
-.arial {
-  font-family: "Arial";
-}
-
-.roboto {
-  font-family: "Roboto";
-}
-
-.roboto-bold {
-  font-family: "Roboto-Bold";
-}
+/* font size css */
 
 /*For font-size = 9pts,
 9 * 1.8 = 16.2
@@ -128,55 +92,7 @@ rounding off 16.2 to nearest even number = 16px
   font-size: var(--font-42pt);
 }
 
-/*Fontawesome css for icons*/
-
-.fa,
-.fab,
-.fad,
-.fal,
-.far,
-.fas {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  line-height: 1;
-}
-
-.fa {
-  font-family: FontAwesome;
-}
-
-.fas {
-  font-family: Font-Awesome-5-Free-Solid-900;
-}
-
-.fa-users:before {
-  content: "\f0c0";
-}
-
-.fa-video:before {
-  content: "\f03d";
-}
-
-.fa-user-friends:before {
-  content: "\f500";
-}
-
-.fa-volume-up:before {
-  content: "\f028";
-}
-
-.fa-bars:before {
-  content: "\f0c9";
-}
-
-.fa-plus:before {
-  content: "\f067";
-}
-
+/* book pages css */
 body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -229,7 +145,6 @@ article .chapter-title {
   font-family: "Avenir-Black";
   font-size: 3.5rem;
   line-height: 1;
-  /* font-weight: bold; */
   max-width: 450px;
   padding: 0px 48px;
 }
