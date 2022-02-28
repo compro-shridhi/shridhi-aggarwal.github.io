@@ -61,6 +61,21 @@
     src: url('../fonts/TimesNewRomanMTStd-Bold.otf');
 }
 
+@font-face {
+    font-family: 'Avenir-Black';
+    src: url('../fonts/AvenirLTStd-Black.otf');
+}
+
+@font-face {
+    font-family: 'Avenir-Book';
+    src: url('../fonts/AvenirLTStd-Book.otf');
+}
+
+@font-face {
+    font-family: 'Avenir-Roman';
+    src: url('../fonts/AvenirLTStd-Roman.otf');
+}
+
 
 .arial{
 	font-family: 'Arial';
@@ -181,29 +196,38 @@ article {
     line-height: 1.3;
 }
 
+article .page-container {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 32px;
+}
+
 article .lesson-title {
-    font-family: 'Arial';
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: var( --red);
+    font-family: 'Avenir-Black';
+    font-size: 1.25rem;
+    /* font-weight: bold; */
+    padding-bottom: 8px;
 }
 
 article .chapter-label {
+    font-family: 'Avenir-Book';
     border-bottom: 3px solid var(--red);
     padding-bottom: 8px;
     font-size: 2.5rem;
 }
 
 article .chapter-number {
+    font-family: 'Avenir-Roman';
     font-size: 11rem;
     line-height: 1;
     padding: 0px 25px;
 }
 
 article .chapter-title {
+    font-family: 'Avenir-Black';
     font-size: 3.5rem;
     line-height: 1;
-    font-weight: bold;
+    /* font-weight: bold; */
     max-width: 450px;
     padding: 0px 48px;
 }
