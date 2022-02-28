@@ -202,6 +202,11 @@ article .page-container {
     margin-top: 32px;
 }
 
+article .content-container {
+    margin-top: 120px; 
+    margin-left: 200px
+}
+
 article .lesson-title {
     font-family: 'Avenir-Black';
     font-size: 1.25rem;
@@ -241,98 +246,20 @@ article p{
     text-indent: 40px;
 }
 
-.beige-bg{
-	background: var(--beige-bg);
-}
-
-.circle{
-    border-radius: 0.8em;
-    -moz-border-radius: 0.8em;
-    -webkit-border-radius: 0.8em;
-    color: var(--white);
-    display: inline-block;
-    font-weight: bold;
-    line-height: 1.6em;
-    margin-right: 5px;
-    text-align: center;
-    width: 1.6em;	
-}
-
-.semi-circle { 
-	font-weight: bold;
-    line-height: 3em;
-    margin-right: 5px;
-    text-align: center;
-    width: 6em;
-    border-radius: 3em 3em 0 0;
-    color: var(--white);
-    background-color: var(--green);
-}
-
 .red-text{
 	color:var(--red);
 }
 
-.green-text{
-	color:var(--green);
-}
-
-.dark-grey-text{
-	color: var(--dark-grey);
-}
-.orange-text{
-	color: var(--orange);
-}
-
-.light-orange-bg{
-	background: var(--light-orange);
-}
-.light-pink-bg{
-	background: var(--light-pink);
-}
-
-.green-circle{
-	background: var(--green);
-}
-
-li {
-	padding-left: 5px;
-}
-
-.right-triangle li::marker {
-	content: " \25B6";
-  }
-
-.left-triangle li::marker {
-	content: " \25C0";
-}
-
-.top-triangle li::marker {
-	content: " \25B2";
-}
-
-.bottom-triangle li::marker {
-	content: " \25BC ";
-}
-
-.green-box{
-	background: var(--green);
-	border-radius: 5px;
-	color:var(--white);
-	font-weight: bold;
-	padding: 2px 30px;
-	display: inline-block;
-}
-
-
 
 /* Mobile devices (576px and down) */
 @media only screen and (max-width: 576px) {
-
+    article .content-container {
+        margin-left: 0px;
+    }
 }
 
 /* Ipad devices (768px and up) */
-@media only screen and (min-width: var(--md)) {
+@media only screen and (min-width: 768px) {
 }
 
 /* Desktop devices (1024px and up) */
