@@ -46,6 +46,7 @@
 @font-face {
   font-family: "Avenir-Roman";
   src: url("../fonts/AvenirLTStd-Roman.otf");
+  line-height: 1;
 }
 
 /* font size css */
@@ -105,7 +106,6 @@ article {
   max-width: 1024px;
   font-family: "Times";
   font-size: 1.125rem;
-  line-height: 1.3;
 }
 
 article .page-container {
@@ -129,7 +129,7 @@ article .lesson-title {
 article .chapter-label {
   font-family: "Avenir-Book";
   border-bottom: 3px solid var(--red);
-  padding-bottom: 8px;
+  padding-bottom: 12px;
   font-size: 2.5rem;
   display: inline-block;
 }
@@ -137,7 +137,7 @@ article .chapter-label {
 article .chapter-number {
   font-family: "Avenir-Roman";
   font-size: 11rem;
-  line-height: 0.75;
+  line-height: 1;
   padding: 0px 25px;
 }
 
@@ -152,6 +152,7 @@ article .chapter-title {
 article p {
   margin: 0px;
   text-align: justify;
+  line-height: 1.3;
 }
 
 .text-indent {
