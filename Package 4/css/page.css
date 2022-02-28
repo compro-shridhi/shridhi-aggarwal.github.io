@@ -1,0 +1,15 @@
+.page94 {
+  padding: 4px 4px 56px 4px;
+}
+
+/* Mobile devices (576px and down) */
+@media only screen and (max-width: 576px) {
+}
+
+/* Ipad devices (above 576px and below 768px) */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+}
+
+/* Desktop devices (768px and up) */
+@media only screen and (min-width: 768px) {
+}
